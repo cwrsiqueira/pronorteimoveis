@@ -89,3 +89,10 @@
 			</div>
 		</div>
 	</div>
+	<hr>
+	<div class="container" id="localizacao" style="text-align: center;">
+		<h3>Localização do Loteamento Conjunto Fazendinha Alfaville</h3>
+		<h5>Nosso escritório fica na entrada do loteamento, na rotatória do Distrito de Fazendinha</h5>
+		<a href="#"><text style="font-size: 12px;">Voltar ao Início</text></a>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.270075812274!2d-51.10628325!3d-0.03631474999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6398c0b48671b866!2sPronorte+Im%C3%B3veis+Ltda.!5e0!3m2!1spt-BR!2sbr!4v1557353507291!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>

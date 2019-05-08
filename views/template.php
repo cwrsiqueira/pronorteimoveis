@@ -20,11 +20,12 @@
                         <img id="logo_img" style="height: 150px; padding: 10px;" src="<?php echo BASE_URL; ?>assets/images/logopronorte.jpg">
                     </a>
                 </div>
-                <div class="col-sm-8" font-weight: bold;" id="cabecalho2">
+                <div class="col-sm-8" id="cabecalho2">
                     <div class="row d-flex flex-row-reverse" style="height: 75px; line-height: 75px;">
                         <ul class="nav" id="menu_principal">
                             <li class="nav-item"><a class="nav-link" href="#financiamentos">Financiamento</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#imoveisavenda">Imóveis a Venda   </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#imoveisavenda">Imóveis a Venda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#localizacao">Nossa Localização</a></li>
                             <?php if (isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin'])): ?>
                                 <li class="nav-item"><a style=" color: black;" class="nav-link" href="<?php echo BASE_URL; ?>login/sair">Deslogar</a></li>
                             <?php endif ?>
