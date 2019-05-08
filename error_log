@@ -1,0 +1,299 @@
+[13-Dec-2018 19:35:00 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home1/pronor28/public_html/controllers/clientesController.php on line 96
+[13-Dec-2018 19:35:34 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home1/pronor28/public_html/controllers/clientesController.php on line 96
+[13-Dec-2018 19:35:37 UTC] PHP Parse error:  syntax error, unexpected '$headers' (T_VARIABLE) in /home1/pronor28/public_html/controllers/clientesController.php on line 96
+[13-Dec-2018 19:42:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function lastInsertId() on null in /home1/pronor28/public_html/controllers/clientesController.php:90
+Stack trace:
+#0 /home1/pronor28/public_html/core/Core.php(43): clientesController->cadastrar_cliente()
+#1 /home1/pronor28/public_html/index.php(20): Core->run()
+#2 {main}
+  thrown in /home1/pronor28/public_html/controllers/clientesController.php on line 90
+[13-Dec-2018 21:28:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email() in /home1/pronor28/public_html/controllers/clientesController.php:100
+Stack trace:
+#0 /home1/pronor28/public_html/core/Core.php(43): clientesController->cadastrar_cliente()
+#1 /home1/pronor28/public_html/index.php(20): Core->run()
+#2 {main}
+  thrown in /home1/pronor28/public_html/controllers/clientesController.php on line 100
+[13-Dec-2018 21:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email() in /home1/pronor28/public_html/controllers/clientesController.php:100
+Stack trace:
+#0 /home1/pronor28/public_html/core/Core.php(43): clientesController->cadastrar_cliente()
+#1 /home1/pronor28/public_html/index.php(20): Core->run()
+#2 {main}
+  thrown in /home1/pronor28/public_html/controllers/clientesController.php on line 100
+[13-Dec-2018 21:36:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email() in /home1/pronor28/public_html/controllers/clientesController.php:100
+Stack trace:
+#0 /home1/pronor28/public_html/core/Core.php(43): clientesController->cadastrar_cliente()
+#1 /home1/pronor28/public_html/index.php(20): Core->run()
+#2 {main}
+  thrown in /home1/pronor28/public_html/controllers/clientesController.php on line 100
+[13-Dec-2018 21:44:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function email() in /home1/pronor28/public_html/controllers/clientesController.php:100
+Stack trace:
+#0 /home1/pronor28/public_html/core/Core.php(43): clientesController->cadastrar_cliente()
+#1 /home1/pronor28/public_html/index.php(20): Core->run()
+#2 {main}
+  thrown in /home1/pronor28/public_html/controllers/clientesController.php on line 100
+[13-Dec-2018 21:47:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::prepare() in /home1/pronor28/public_html/models/Clientes.php:92
+Stack trace:
+#0 /home1/pronor28/public_html/controllers/clientesController.php(145): Clientes->confirmarCadastro('3980360ca30f853...')
+#1 /home1/pronor28/public_html/core/Core.php(43): clientesController->confirmar_cadastro('3980360ca30f853...')
+#2 /home1/pronor28/public_html/index.php(20): Core->run()
+#3 {main}
+  thrown in /home1/pronor28/public_html/models/Clientes.php on line 92
+[13-Dec-2018 21:47:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::prepare() in /home1/pronor28/public_html/models/Clientes.php:92
+Stack trace:
+#0 /home1/pronor28/public_html/controllers/clientesController.php(145): Clientes->confirmarCadastro('3980360ca30f853...')
+#1 /home1/pronor28/public_html/core/Core.php(43): clientesController->confirmar_cadastro('3980360ca30f853...')
+#2 /home1/pronor28/public_html/index.php(20): Core->run()
+#3 {main}
+  thrown in /home1/pronor28/public_html/models/Clientes.php on line 92
+[13-Dec-2018 21:49:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::prepare() in /home1/pronor28/public_html/models/Clientes.php:92
+Stack trace:
+#0 /home1/pronor28/public_html/controllers/clientesController.php(145): Clientes->confirmarCadastro('3980360ca30f853...')
+#1 /home1/pronor28/public_html/core/Core.php(43): clientesController->confirmar_cadastro('3980360ca30f853...')
+#2 /home1/pronor28/public_html/index.php(20): Core->run()
+#3 {main}
+  thrown in /home1/pronor28/public_html/models/Clientes.php on line 92
+[13-Dec-2018 21:52:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::prepare() in /home1/pronor28/public_html/models/Clientes.php:92
+Stack trace:
+#0 /home1/pronor28/public_html/controllers/clientesController.php(145): Clientes->confirmarCadastro('123')
+#1 /home1/pronor28/public_html/core/Core.php(43): clientesController->confirmar_cadastro('123')
+#2 /home1/pronor28/public_html/index.php(20): Core->run()
+#3 {main}
+  thrown in /home1/pronor28/public_html/models/Clientes.php on line 92
+[13-Dec-2018 21:58:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::prepare() in /home1/pronor28/public_html/models/Clientes.php:92
+Stack trace:
+#0 /home1/pronor28/public_html/controllers/clientesController.php(145): Clientes->confirmarCadastro('3980360ca30f853...')
+#1 /home1/pronor28/public_html/core/Core.php(43): clientesController->confirmar_cadastro('3980360ca30f853...')
+#2 /home1/pronor28/public_html/index.php(20): Core->run()
+#3 {main}
+  thrown in /home1/pronor28/public_html/models/Clientes.php on line 92
+[14-Dec-2018 00:09:31 UTC] PHP Warning:  require(views/reenviarConfirmacaoCadastro.php): failed to open stream: No such file or directory in /home1/pronor28/public_html/core/controller.php on line 15
+[14-Dec-2018 00:09:31 UTC] PHP Warning:  require(views/reenviarConfirmacaoCadastro.php): failed to open stream: No such file or directory in /home1/pronor28/public_html/core/controller.php on line 15
+[14-Dec-2018 00:09:31 UTC] PHP Fatal error:  require(): Failed opening required 'views/reenviarConfirmacaoCadastro.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/pronor28/public_html/core/controller.php on line 15
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 17:34:52 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 110
+[17-Dec-2018 17:35:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 17:38:30 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 17:39:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 18:04:56 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 18:05:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 18:05:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 20:01:12 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 20:01:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 20:02:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 20:05:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 20:06:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 20:26:44 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 110
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 8
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 20
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'tratamento' in /home1/pronor28/public_html/views/editar_cliente.php on line 21
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 25
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 29
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'sexo' in /home1/pronor28/public_html/views/editar_cliente.php on line 30
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'nacionalidade' in /home1/pronor28/public_html/views/editar_cliente.php on line 33
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'estado_civil' in /home1/pronor28/public_html/views/editar_cliente.php on line 35
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'profissao' in /home1/pronor28/public_html/views/editar_cliente.php on line 37
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'nasc' in /home1/pronor28/public_html/views/editar_cliente.php on line 40
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 44
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 45
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 46
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 47
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 48
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 51
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'identidade_emissor' in /home1/pronor28/public_html/views/editar_cliente.php on line 53
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'cpf_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 55
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'renda_bruta' in /home1/pronor28/public_html/views/editar_cliente.php on line 58
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'cep' in /home1/pronor28/public_html/views/editar_cliente.php on line 69
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 72
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 73
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 74
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 75
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 76
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_tipo' in /home1/pronor28/public_html/views/editar_cliente.php on line 77
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_nome' in /home1/pronor28/public_html/views/editar_cliente.php on line 81
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_nr' in /home1/pronor28/public_html/views/editar_cliente.php on line 83
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'logradouro_inf' in /home1/pronor28/public_html/views/editar_cliente.php on line 85
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'bairro' in /home1/pronor28/public_html/views/editar_cliente.php on line 87
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'municipio' in /home1/pronor28/public_html/views/editar_cliente.php on line 89
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'estado' in /home1/pronor28/public_html/views/editar_cliente.php on line 91
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'email' in /home1/pronor28/public_html/views/editar_cliente.php on line 93
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'telefone' in /home1/pronor28/public_html/views/editar_cliente.php on line 95
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'obs' in /home1/pronor28/public_html/views/editar_cliente.php on line 97
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 107
+[17-Dec-2018 20:31:26 UTC] PHP Warning:  Illegal string offset 'id' in /home1/pronor28/public_html/views/editar_cliente.php on line 110
+[17-Dec-2018 20:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/pronor28/public_html/views/template.php:1) in /home1/pronor28/public_html/controllers/clientesController.php on line 295

@@ -1,0 +1,5 @@
+$(function myFunction(){
+
+	$("#myModal").modal();
+
+});
