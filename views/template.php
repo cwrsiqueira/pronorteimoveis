@@ -20,17 +20,23 @@
                         <img id="logo_img" style="height: 150px; padding: 10px;" src="<?php echo BASE_URL; ?>assets/images/logopronorte.jpg">
                     </a>
                 </div>
+
                 <div class="col-sm-8" id="cabecalho2">
-                    <div class="row d-flex flex-row-reverse" style="height: 75px; line-height: 75px;">
-                        <ul class="nav" id="menu_principal">
-                            <li class="nav-item"><a class="nav-link" href="#financiamentos">Financiamento</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#imoveisavenda">Imóveis a Venda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#localizacao">Nossa Localização</a></li>
-                            <?php if (isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin'])): ?>
-                                <li class="nav-item"><a style=" color: black;" class="nav-link" href="<?php echo BASE_URL; ?>login/sair">Deslogar</a></li>
-                            <?php endif ?>
+
+                    <nav class="navbar navbar-expand-sm" id="menu_geral">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#imoveisavenda">Imóveis a Venda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#financiamentos">Simulações de Financiamento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#localizacao">Nossa Localização</a>
+                            </li>
                         </ul>
-                    </div>
+                    </nav>
+
                     <div class="row d-flex flex-row-reverse" style="padding-right: 10px;" id="menu_phone">  
                         <div class="p-2">
                             <a href="http://wa.me/5596991100451" target="_blank">
@@ -38,10 +44,10 @@
                             </a>
                         </div>
                         <div class="p-2" id="icone_contatos">
-                            <a href="http://wa.me/5596991100451" target="_blank"><img style="margin-top: 15px; height: 15px;" src="<?php echo BASE_URL; ?>assets/images/whatsapp-logo.png"></a>
+                            <a href="http://wa.me/5596991100451" target="_blank"><img src="<?php echo BASE_URL; ?>assets/images/whatsapp-logo.png"></a>
                         </div>
                         <div class="p-2" id="icone_contatos2">
-                            <img style="width: 20px; margin-top: 5px;" src="<?php echo BASE_URL; ?>assets/images/contato.png">
+                            <img src="<?php echo BASE_URL; ?>assets/images/contato.png">
                         </div>  
                     </div>
                     <div class="row" style="justify-content: flex-end; font-weight: normal; font-size: 12px; margin-right: 5px;">

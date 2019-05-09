@@ -55,8 +55,10 @@
 	margin-top: -20px;
 }
 
-#icone_contatos {
-	margin-top: -6px;
+#icone_contatos img,
+#icone_contatos2 img {
+	margin-top: 15px;
+	height: 15px;
 }
 
 #social_icone.facebook {
@@ -72,6 +74,11 @@
     padding: 20px;
     margin-top: 200px;
 }
+#social_icone.whatsapp {
+	position: absolute; 
+	width: 100%;
+	padding: 20px;
+}
 
 div#financiamentos {
 	margin-top: -50px; 
@@ -79,6 +86,9 @@ div#financiamentos {
 	background-color: #298A08; 
 	text-align: center; 
 	border-radius: 5px;
+}
+.titulo {
+	font-size: 50px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -98,15 +108,23 @@ div#financiamentos {
 		margin-top: -14px;
 	}
 
+	#social_icone.whatsapp {
+		margin-top: 0px;
+		position: absolute; 
+	}
+
 	#social_icone.facebook {
 		width: 80%;
 		margin-top: 0px;
+		position: relative;
 	}
 
 	#social_icone.email {
 		width: 60%;
-		margin-top: 0px;
+		margin-top: -100px;
+		position: relative;
 	}
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -145,6 +163,13 @@ div#financiamentos {
 
 	#financiamento {
 		margin-top: 200px;
+	}
+
+	#menu_geral {
+		margin-top: 55px;
+	}
+	.titulo {
+		font-size: 20px;
 	}
 }
 

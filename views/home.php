@@ -1,5 +1,5 @@
 	<!-- Ícone das redes sociais e e-mail -->
-	<div style="position: absolute; width: 100%;padding: 20px;" id="social_icone" class="whatsapp">
+	<div id="social_icone" class="whatsapp">
 		<img src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner-shadow.png"/>
 		<a href="http://wa.me/5596991100451" target="_blank">
 			<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner.png"/>
@@ -48,7 +48,7 @@
 
 	<!-- Container de Imóveis a Venda -->
 	<div id="imoveisavenda" class="container" style="text-align: center;">
-		<h1 style="font-weight: bold;">IMÓVEIS A VENDA <a href="#"><text style="font-size: 12px;">Voltar ao Início</text></a></h1>
+		<h3 class="titulo" style="font-weight: bold;">IMÓVEIS A VENDA <a href="#"><text style="font-size: 12px;">Voltar ao Início</text></a></h3>
 		<hr style="background-color: green;">
 		<div class="row" >
 			<div class="col-sm">
