@@ -91,6 +91,18 @@ div#financiamentos {
 	font-size: 50px;
 }
 
+footer a, div {
+	color: #E6E6E6;
+}
+
+div#localizacao.container {
+	color: #2E2E2E;
+}
+
+div#logo_financeiras.col-sm {
+	color: #2E2E2E;
+}
+
 @media only screen and (max-width: 1024px) {
 
 	#menu_principal {

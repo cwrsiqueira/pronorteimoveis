@@ -102,6 +102,7 @@
 				<p>Apenas R$ 75.000,00</p>
 		</div>
 	</div>
+	<div style="clear:both"></div>
 	<hr>
 	<div class="container" id="localizacao" style="text-align: center;">
 		<h3>Localização do Loteamento Conjunto Fazendinha Alfaville</h3>
