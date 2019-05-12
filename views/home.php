@@ -1,26 +1,28 @@
-	<!-- Ícone das redes sociais e e-mail -->
-	<div id="social_icone" class="whatsapp">
-		<img src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner-shadow.png"/>
-		<a href="http://wa.me/5596991100451" target="_blank">
-			<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner.png"/>
-		</a>
-	</div>
-	<div id="social_icone" class="facebook">
-		<img src="<?php echo BASE_URL; ?>assets/images/facebook-logo-shadow.png"/>
-		<a href="https://web.facebook.com/pronorteimoveis/" target="_blank">
-			<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/facebook-logo.png"/>
-		</a>
-	</div>
-	<div id="social_icone" class="email">
-		<img src="<?php echo BASE_URL; ?>assets/images/email_sombra.png"/>
-		<a href="<?php echo BASE_URL; ?>home/email">
-			<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/email.png"/>
-		</a>
+﻿	<!-- Ícone das redes sociais e e-mail -->
+	<div>
+		<div id="social_icone" class="whatsapp">
+			<img src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner-shadow.png"/>
+			<a href="http://wa.me/5596991100451" target="_blank">
+				<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner.png"/>
+			</a>
+		</div>
+		<div id="social_icone" class="facebook">
+			<img src="<?php echo BASE_URL; ?>assets/images/facebook-logo-shadow.png"/>
+			<a href="https://web.facebook.com/pronorteimoveis/" target="_blank">
+				<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/facebook-logo.png"/>
+			</a>
+		</div>
+		<div id="social_icone" class="email">
+			<img src="<?php echo BASE_URL; ?>assets/images/email_sombra.png"/>
+			<a href="<?php echo BASE_URL; ?>home/email">
+				<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/email.png"/>
+			</a>
+		</div>
 	</div>
 
 	<!-- Imagem Principal do Site -->
 	<div>
-	    <img style="width: 100%;" src="<?php echo BASE_URL; ?>assets/images/condominio.jpeg">
+	    <img style="width: 100%; border-top: 2px solid #2E2E2E; border-bottom: 2px solid #2E2E2E;" src="<?php echo BASE_URL; ?>assets/images/foto10.jpg">
 	</div>
 	
 	<!-- Links para Simulações de Financiamentos no Bancos -->
@@ -47,46 +49,57 @@
 	</div>
 
 	<!-- Container de Imóveis a Venda -->
-	<div id="imoveisavenda" class="container" style="text-align: center;">
-		<h3 class="titulo" style="font-weight: bold;">IMÓVEIS A VENDA <a href="#"><text style="font-size: 12px;">Voltar ao Início</text></a></h3>
+	<div id="imoveisavenda" class="container">
+		<h3 class="titulo" style="font-weight: bold; text-align: center; font-size: 40px; font-family: arial; color: #2E2E2E;">IMÓVEIS A VENDA <a href="#"><text style="font-size: 12px;">Voltar ao Início</text></a></h3>
 		<hr style="background-color: green;">
-		<div class="row" >
-			<div class="col-sm">
-				<div class="card">
-					<img style="height: 160px;" class="card-img-top" src="<?php echo BASE_URL; ?>assets/images/condominio.jpeg" alt="Card image"><span class="badge badge-danger">Lançamento</span>
-					<div class="card-body">
-						<h4 class="card-title">Residencial Brisa Sul <br> - Condomínio Fechado -</h4>
-						<p style="text-align: left;" class="card-text">Casas de 64m² com:
-						<ul style="text-align: left;">
-							<li>2 quartos</li>
-							<li>sala/cozinha/banheiro</li>
-							<li>garagem</li>
-							<li>área de serviço</li>
-							<li>Pré-cadastro Aberto</li>
-						</ul>
-						<p id="texto_info" style="text-align: justify;">Residencial com acesso exclusivo a moradores, academia ao ar livre, parque infantil e área gourmet com churrasqueiras.<br>Localizado no Loteamento Conjunto Fazendinha Alfaville, na Zona Sul de Macapá, Rodovia do Polo, ao lado do Parque de Exposições (Expofeira).</p></p>
-						<h5 style="text-decoration: underline; color: red; font-weight: bold;">Prestações a partir de R$ 800,00<br>Entrada Facilitada!<br>Use seu FGTS</h5>
-						<a href="<?php echo BASE_URL; ?>home/email" class="btn btn-success">Solicite Contato</a>
+
+		<div style="font-family: arial; color: #2E2E2E;">
+
+			<div id="demo" class="container carousel-slide" data-ride="carousel" style="width: 350px; height: 350px; float: left; margin-right: 20px;">
+				<div style="clear:both"></div>
+				<!-- Indicators -->
+				
+
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+
+					<div class="carousel-item active">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto1.jpg" alt="Los Angeles">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto2.jpg" alt="Chicago">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto3.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto4.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto5.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto6.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto7.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto8.jpg" alt="New York">
+					</div>
+					<div class="carousel-item">
+						<img style="border: 1px solid green; border-radius: 15px;" height="346px" width="300px" src="<?php echo BASE_URL; ?>assets/images/foto9.jpg" alt="New York">
 					</div>
 				</div>
 			</div>
-			<div class="col-sm">
-				<div class="card">
-					<img style="height: 160px;" class="card-img-top" src="<?php echo BASE_URL; ?>assets/images/fotoaereaalfaville.png" alt="Card image"><span class="badge badge-danger">Lotes em Promoção</span>
-					<div class="card-body">
-						<h4 class="card-title">Loteamento<br> Conjunto Fazendinha Alfaville <br>- Lotes -</h4>
-						<p style="text-align: left; margin-top: 68px;" class="card-text">Lotes de 300m²:
-						<ul style="text-align: left;">
-							<li>Urbanizados</li>
-							<li>Pronta Entrega</li>
-							<li>10m x 30m</li>
-						</ul>
-						<p id="texto_info" style="text-align: justify;">Loteamento Conjunto Fazendinha Alfaville, na Zona Sul de Macapá, ao lado do Parque de Exposições (Expofeira).</p></p>
-						<h5 style="text-decoration: underline; color: red; font-weight: bold; margin-top: 68px;"> De <text style="text-decoration: line-through;">R$ 75.000,00</text> por <br>R$ 60.000,00 à vista, ou<br>Financiamento com construção</h5>
-						<a href="<?php echo BASE_URL; ?>home/email" class="btn btn-success">Solicite Contato</a>
-					</div>
-				</div>
-			</div>
+				<strong>Loteamento Conjunto Fazendinha Alfaville</strong>
+				<p>Vendemos lotes urbanizados na Zona Sul de Macapá, região mais valorizada da capital.</p>
+				<p>Lotes de 300m² de 10x30m</p>
+				<p>Pronta entrega e prontos pra morar.</p>
+				<p>Loteamento registrado em todos os órgãos competentes, inclusive Cartório de Registro de Imóveis</p>
+				<p>Lotes aptos ao financiamento junto com sua casa, pela Caixa Econômica Federal</p>
+				<p>Parcelamos em até 12 vezes, sem juros, no boleto</p>
+				<p>Apenas R$ 75.000,00</p>
 		</div>
 	</div>
 	<hr>

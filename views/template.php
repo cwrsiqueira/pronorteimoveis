@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css" />
 	</head>
-	<body>
+	<body style="background-color: #CEF6CE;">
         <?php if (isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin'])): ?>
             <p id="logado_alerta" style="background-color: red; font-size: 12px; font-family: Arial; text-align: center; color: #FFFFFF;">Ambiente Institucional - Uso exclusivo de funcionários cadastrados</p>
         <?php endif ?>
@@ -17,8 +17,9 @@
             <div class="row">
                 <div id="logo" class="col-sm-4">
                     <a href="<?php echo BASE_URL; ?>">
-                        <img id="logo_img" style="height: 150px; padding: 10px;" src="<?php echo BASE_URL; ?>assets/images/logopronorte.jpg">
+                        <img id="logo_img" style="height: 150px; padding: 10px;" src="<?php echo BASE_URL; ?>assets/images/FAVICON.png">
                     </a>
+                    <h5 style="color: #088A29; margin-top: -30px; font-weight: bold;">PRONORTE IMÓVEIS</h5>
                 </div>
 
                 <div class="col-sm-8" id="cabecalho2">
@@ -26,13 +27,13 @@
                     <nav class="navbar navbar-expand-sm" id="menu_geral">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#imoveisavenda">Imóveis a Venda</a>
+                                <a style="color: #2E2E2E;" class="nav-link" href="#imoveisavenda">Imóveis a Venda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#financiamentos">Simulações de Financiamento</a>
+                                <a style="color: #2E2E2E;" class="nav-link" href="#financiamentos">Simulações de Financiamento</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#localizacao">Nossa Localização</a>
+                                <a style="color: #2E2E2E;" class="nav-link" href="#localizacao">Nossa Localização</a>
                             </li>
                         </ul>
                     </nav>
@@ -68,12 +69,11 @@
 		<script src="<?php echo BASE_URL; ?>assets/js/jquery.mask.min.js"></script>
 		<script src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
 	</body>
-    <hr style="background-color: green;">
-    <footer style="text-align: center; font-size: 12px; font-family: Arial;">
+    <div style="height: 50px; background-color: #0B610B;"></div>
+    <footer style="text-align: center; font-size: 12px; font-family: Arial; background-color: #0B3B0B;">
         <div>
-            <p>CWRS Development +55 (96) 99110-0451 - <a href="<?php echo BASE_URL; ?>">Pronorte Inc. Com. e Imóveis Ltda.</a> - Todos os direitos reservados</p>
-        </div>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"              title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            CWRS Development +55 (96) 99110-0451 - <a href="<?php echo BASE_URL; ?>">Pronorte Inc. Com. e Imóveis Ltda.</a> - Todos os direitos reservados<br>
+            Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"              title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         <div>
             <p>Este site é melhor visualizado no Google Chrome</p>
         </div>
