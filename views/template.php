@@ -40,12 +40,12 @@
 
                     <div class="row d-flex flex-row-reverse" style="padding-right: 10px;" id="menu_phone">  
                         <div class="p-2">
-                            <a href="http://wa.me/5596991100451" target="_blank">
-                                <h4 id="menu_phone_item">(96) 99110-0451</h4>
+                            <a href="http://wa.me/5596981460048" target="_blank">
+                                <h4 id="menu_phone_item">(96) 98146-0048</h4>
                             </a>
                         </div>
                         <div class="p-2" id="icone_contatos">
-                            <a href="http://wa.me/5596991100451" target="_blank"><img src="<?php echo BASE_URL; ?>assets/images/whatsapp-logo.png"></a>
+                            <a href="http://wa.me/5596981460048" target="_blank"><img src="<?php echo BASE_URL; ?>assets/images/whatsapp-logo.png"></a>
                         </div>
                         <div class="p-2" id="icone_contatos2">
                             <img src="<?php echo BASE_URL; ?>assets/images/contato.png">
@@ -72,10 +72,11 @@
     <div style="height: 50px; background-color: #0B610B;"></div>
     <footer style="text-align: center; font-size: 12px; font-family: Arial; background-color: #0B3B0B;">
         <div>
-            CWRS Development +55 (96) 99110-0451 - <a href="<?php echo BASE_URL; ?>">Pronorte Inc. Com. e Imóveis Ltda.</a> - Todos os direitos reservados<br>
+            CWRS Development +55 (96) 98146-0048 - <a href="<?php echo BASE_URL; ?>">Pronorte Inc. Com. e Imóveis Ltda.</a> - Todos os direitos reservados<br>
             Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"              title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         <div>
             <p>Este site é melhor visualizado no Google Chrome</p>
-        </div>
+            <a href="<?php echo BASE_URL; ?>CRM_Imobiliaria">CRM Imobiliária</a>
+        </div><br>
     </footer>
 </html>

@@ -8,7 +8,7 @@
 	<div>
 		<div id="social_icone" class="whatsapp">
 			<img src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner-shadow.png"/>
-			<a href="http://wa.me/5596991100451" target="_blank">
+			<a href="http://wa.me/5596981460048" target="_blank">
 				<img style="margin-right: -48px;margin-top: -3px;" src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner.png"/>
 			</a>
 		</div>
