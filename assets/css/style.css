@@ -257,3 +257,15 @@ div#meu_phone.row.d-flex.flex-row-reverse {
 div#email_contato {
 	font-family: 'Open Sans', sans-serif;
 }
+.promocao {
+	color: #BDBDBD;
+	background-color: #8A0829;
+	padding: 10px;
+	text-align: center;
+	font-family: arial;
+	box-shadow: 2px 2px 2px;
+}
+.promocao strong {
+	font-size: 22px;
+	color: #FFFFFF;
+}

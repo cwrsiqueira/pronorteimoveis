@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/FAVICON.png" />
         <title>Pronorte</title>
         <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css" />
 	</head>
 	<body style="background-color: #CEF6CE;">
         <?php if (isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin'])): ?>

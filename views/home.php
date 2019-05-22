@@ -1,4 +1,10 @@
-﻿	<!-- Ícone das redes sociais e e-mail -->
+﻿	<!-- Promoções -->
+	<div class="promocao">
+		Lotes de 10x30m = 300m²  |  Na Zona Sul de Macapá  |
+ 		<strong>R$ 60.000,00</strong>
+	</div>
+
+	<!-- Ícone das redes sociais e e-mail -->
 	<div>
 		<div id="social_icone" class="whatsapp">
 			<img src="<?php echo BASE_URL; ?>assets/images/whatsapp-banner-shadow.png"/>
@@ -98,8 +104,7 @@
 				<p>Pronta entrega e prontos pra morar.</p>
 				<p>Loteamento registrado em todos os órgãos competentes, inclusive Cartório de Registro de Imóveis</p>
 				<p>Lotes aptos ao financiamento junto com sua casa, pela Caixa Econômica Federal</p>
-				<p>Parcelamos em até 12 vezes, sem juros, no boleto</p>
-				<p>Apenas R$ 75.000,00</p>
+				<p>Apenas R$ 60.000,00</p>
 		</div>
 	</div>
 	<div style="clear:both"></div>

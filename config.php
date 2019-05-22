@@ -4,7 +4,7 @@ require 'environment.php';
 $config = array();
 if(ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://pronorteimoveis.pc/");
-	$config['dbname'] = 'cadastro-imobiliario';
+	$config['dbname'] = 'cadastro_imobiliario';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
