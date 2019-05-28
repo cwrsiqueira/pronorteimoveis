@@ -134,6 +134,7 @@
 					<th>Contrato</th>
 					<th>Cliente</th>
 					<th>Situação</th>
+					<th>Consultar</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -145,6 +146,11 @@
 					<td><?php echo $r['numero']; ?></td>
 					<td><?php echo $r['cliente_nome']; ?></td>
 					<td><?php echo ($r['prop_atual'] == 1)?'Proprietário':'Transferido';  ?></td>
+					<td>
+						<a href="<?php echo BASE_URL; ?>imoveis/consulta/<?php echo $r['id_imovel'] ?>"><button class="btn btn-secondary btn-sm">Imóvel</button></a>
+						<a href="<?php echo BASE_URL; ?>contratos/consulta/<?php echo $r['id'] ?>"><button class="btn btn-secondary btn-sm">Contrato</button></a>
+						<a href="<?php echo BASE_URL; ?>clientes/consulta/<?php echo $r['id_cliente'] ?>"><button class="btn btn-secondary btn-sm">Cliente</button></a>
+					</td>
 				</tr>
 				<?php endforeach; ?>
 			</tbody>

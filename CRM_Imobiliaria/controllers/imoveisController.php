@@ -23,4 +23,26 @@ class imoveisController extends controller {
 
 		$this->loadTemplate('imoveis', $dados);
 	}
+
+	public function consulta($id) {
+		$dados = array();
+		$dados['usuario'] = $this->usuario;
+		$dados['empresa'] = $this->empresa;
+
+		$i = new Imoveis();
+		$dados['imovel'] = $i->consultaImovelPorId($id, $this->empresa['id_empresa']);
+
+		$this->loadTemplate('imovel_consulta', $dados);
+	}
+
+	public function editar($id) {
+		$dados = array();
+		$dados['usuario'] = $this->usuario;
+		$dados['empresa'] = $this->empresa;
+
+		$i = new Imoveis();
+		$dados['imovel'] = $i->consultaImovelPorId($id, $this->empresa['id_empresa']);
+
+		$this->loadTemplate('imovel_editar', $dados);
+	}
 }
